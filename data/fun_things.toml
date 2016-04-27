@@ -1,0 +1,19 @@
+ 
+# Section title
+title = "Fun Things"
+
+[[funProjects]]
+	name = "Freddie The Robot"
+	folder = "freddie"
+
+[[funProjects]]
+	name = "Plasma Globe x Kaleidoscope"
+	folder = "plasmaxscope"
+
+[[funProjects]]
+	name = "Infinity Mirror Cube"
+	folder = "infMirrorCube"
+
+[[funProjects]]
+	name = "Closed Loop Pendulum Waves"
+	folder = "circPendWave"

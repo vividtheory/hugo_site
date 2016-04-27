@@ -1,0 +1,14 @@
+# Section title
+title = "Installations"
+
+[[installations]]
+    name = "Vivid Light Tubes"
+    folder = "VLT"
+
+[[installations]]
+ 	name = "Sound Castle"
+ 	folder = "soundcastle"
+
+[[installations]]
+	name = "Infinity of Three"
+	folder = "infinityofthree"
