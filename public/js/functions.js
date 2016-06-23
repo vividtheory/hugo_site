@@ -2,6 +2,8 @@ $(function() {
 	smoothScroll(300);
 	workBelt();
 	workLoad();
+	funBelt();
+	funLoad();
 	clientStuff();
 	
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
@@ -43,6 +45,21 @@ function workBelt() {
 
 }
 
+function funBelt() {
+  $(".funtrigger").remove();
+  $(".funreturn").remove();
+
+  $('.funthumb-container label').click(function() {
+    $('.fun-belt').addClass("slided");
+    $('.fun-container').show();
+  });
+  
+  $('.fun-return').click(function() {
+    $('.fun-belt').removeClass("slided");
+    $('.fun-container').hide(800);
+  });
+}
+
 
 function  workLoad() {
   
@@ -55,12 +72,27 @@ function  workLoad() {
         spinner = '<div class="loader">Loading...</div>',
         newHTML = 'work/'+ newfolder;
       
-    $('.project-load').html(spinner).load(newHTML);
-    $('.project-title').text(newTitle);
+    $('.installation-load').html(spinner).load(newHTML);
+    $('.installation-title').text(newTitle);
   });
   
 }
 
+function funLoad() {
+   
+  $.ajaxSetup({ cache: true });
+  
+  $('.funthumb-container label').click(function() {
+    var $this = $(this),
+        newTitle = $this.find('strong').text(),
+        newfolder = $this.find('.funthumb-unit').data('folder'),
+        spinner = '<div class="loader">Loading...</div>',
+        newHTML = 'fun_things/'+ newfolder;
+      
+    $('.funProject-load').html(spinner).load(newHTML);
+    $('.funProject-title').text(newTitle);
+  });	
+}
 
 
 
