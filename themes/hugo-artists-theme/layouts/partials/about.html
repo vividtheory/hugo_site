@@ -1,5 +1,11 @@
 
+
+
 {{ "<!-- About section -->" | safeHTML }}
+
+   
+   
+
 <section>
     {{ with .Site.Params.about.title }}<h2 id="about-me">{{ . }}</h2>{{ end }}
 
@@ -28,6 +34,12 @@
         <p>{{ . | markdownify }}</p>
     </div>
     {{ end }}
+
+  {{with .Site.Params.about.quote}}
+    <div class="quote">
+        <p>{{. | markdownify}}</p>
+    </div>
+    {{end}}
 <!--
     {{ with .Site.Params.about.skills }}
     <div class="skill-lockup">

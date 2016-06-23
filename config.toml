@@ -43,7 +43,9 @@ theme = "hugo-artists-theme"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About Vivid Theory"
-		bio = "Vivid Theory does stuff.  Interative installations and such. Thought-provoking digital media installation art.  Algorithms and interactivity.  Bring theory to life."
+		bio = "Vivid Theory makes digital media art installations for a wide range of audiences.  Underground parties, DJ nights, festivals, maker faires... each setting presents an interesting set of opportunities and challenges.  While visual appeal is important, the primary aim is to produce art that is engaging and thought provoking.  Mathematics and algorithms underly the custom software developed for each installation.  Interactive technology (which could range from a sophisticated 3D sensor to a simple arcade pushbutton) adds a new dimension - the human element.  This mixture of algorithmic expression and interactivity yields some truly amazing effects.  Scroll down to see some examples."
+		quote = "Theory underlies the art; the art brings theory to life."
+		
 
 	# Contact secion
 	#[params.contact]
