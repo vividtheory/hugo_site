@@ -12,3 +12,7 @@ title = "Installations"
 [[installations]]
 	name = "Infinity of Three"
 	folder = "infinityofthree"
+
+[[installations]]
+	name = "Impossible Illumination"
+	folder = "impossible_illumination"
